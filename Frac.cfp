@@ -5,9 +5,12 @@
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
 	<File>main.cpp</File>
+	<File>Bitmap.cpp</File>
 </Folder>
 <Folder name="Header Files">
 	<File>BitmapFileHeader.h</File>
+	<File>BitmapInfoHeader.h</File>
+	<File>Bitmap.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>

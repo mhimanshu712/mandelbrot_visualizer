@@ -1,4 +1,5 @@
 #include <iostream>
+#include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
 
 using namespace std;

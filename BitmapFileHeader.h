@@ -2,9 +2,12 @@
 #define BITMAPFILEHEADER_H_
 
 #include <cstdint>
+
 using namespace std;
 
 #pragma pack(2)
+
+namespace him {
 
 struct BitmapFileHeader {
 	char header[2]{'B', 'M'};
@@ -12,5 +15,7 @@ struct BitmapFileHeader {
 	int32_t reserved{0};
 	int32_t dataOffset;
 };
+
+}
 
 #endif
