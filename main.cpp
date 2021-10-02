@@ -1,11 +1,13 @@
 #include <iostream>
-#include "BitmapInfoHeader.h"
-#include "BitmapFileHeader.h"
+#include "Bitmap.h"
 
 using namespace std;
+using namespace him;
 
 int main()
 {
-	cout<<"Hello World"<<endl;
+	Bitmap img(800,600);
+	img.write("img.bmp");
+	cout<<"Done!"<<endl;
 	return 0;
 }
