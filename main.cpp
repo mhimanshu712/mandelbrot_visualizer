@@ -15,15 +15,15 @@ int main()
 	
 	for(int x=0;x<WIDTH;x++){
 		for(int y=0;y<HEIGHT;y++){
-			double xFractal = (x - WIDTH/2) * 2.0/WIDTH;
+			double xFractal = (x - WIDTH/2-200) * 2.0/HEIGHT;
 			double yFractal = (y - HEIGHT/2) * 2.0/HEIGHT;
 			
 			
 			int itr = Mandelbrot::getIterations(xFractal,yFractal);
 			
-			uint8_t red = (uint8_t)(256 * (double)itr/Mandelbrot::MAX_ITERATIONS);
+			uint8_t color = (uint8_t)(256 * (double)itr/Mandelbrot::MAX_ITERATIONS);
 			
-			img.setPixel(x, y, red, red, red);
+			img.setPixel(x, y, color, color, color);
 		}
 	}
 	

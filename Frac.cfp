@@ -16,6 +16,13 @@
 </Folder>
 <Folder name="Other Files">
 </Folder>
+<Attribute topline="7" x="46" y="24">main.cpp</Attribute>
+<Attribute topline="34" x="10" y="49">Bitmap.cpp</Attribute>
+<Attribute topline="1" x="15" y="15">Mandelbrot.cpp</Attribute>
+<Attribute topline="1" x="2" y="19">BitmapFileHeader.h</Attribute>
+<Attribute topline="1" x="2" y="26">BitmapInfoHeader.h</Attribute>
+<Attribute topline="1" x="18" y="6">Bitmap.h</Attribute>
+<Attribute topline="1" x="37" y="8">Mandelbrot.h</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw</DefConfig>
 <Builder name="mingw" type="MinGW" version="1.0">
