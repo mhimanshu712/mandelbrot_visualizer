@@ -5,7 +5,7 @@ namespace him {
 	
 class Mandelbrot {
 public:
-	static const int MAX_ITERATIONS = 30;
+	static const int MAX_ITERATIONS = 50;
 	
 public:
 	Mandelbrot();

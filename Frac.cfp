@@ -7,12 +7,15 @@
 	<File>main.cpp</File>
 	<File>Bitmap.cpp</File>
 	<File>Mandelbrot.cpp</File>
+	<File>ZoomList.cpp</File>
 </Folder>
 <Folder name="Header Files">
 	<File>BitmapFileHeader.h</File>
 	<File>BitmapInfoHeader.h</File>
 	<File>Bitmap.h</File>
 	<File>Mandelbrot.h</File>
+	<File>Zoom.h</File>
+	<File>ZoomList.h</File>
 </Folder>
 <Folder name="Other Files">
 </Folder>
